@@ -1,0 +1,363 @@
+fileFormatVersion: 2
+guid: ca329930863059f4090454cae17af327
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1461907562390876791
+    second: HelicopterosInimigos 1_0
+  - first:
+      213: 2503624861562990248
+    second: HelicopterosInimigos 1_1
+  - first:
+      213: -6806365251609175770
+    second: HelicopterosInimigos 1_2
+  - first:
+      213: -4363102079082456979
+    second: HelicopterosInimigos 1_3
+  - first:
+      213: 2240899898940083734
+    second: HelicopterosInimigos 1_4
+  - first:
+      213: -4936661934005146925
+    second: HelicopterosInimigos 1_5
+  - first:
+      213: -804228565527141024
+    second: HelicopterosInimigos 1_6
+  - first:
+      213: -2712806470913570117
+    second: HelicopterosInimigos 1_7
+  - first:
+      213: 634824759276719168
+    second: HelicopterosInimigos 1_8
+  - first:
+      213: -1483685573936790970
+    second: HelicopterosInimigos 1_9
+  - first:
+      213: -4469522338863965718
+    second: HelicopterosInimigos 1_10
+  - first:
+      213: -1235900309939558045
+    second: HelicopterosInimigos 1_11
+  - first:
+      213: 3674617958137634860
+    second: HelicopterosInimigos 1_12
+  - first:
+      213: -2019529056693397395
+    second: HelicopterosInimigos 1_13
+  - first:
+      213: -5958217107537129281
+    second: HelicopterosInimigos 1_14
+  - first:
+      213: -3598198627977698580
+    second: HelicopterosInimigos 1_15
+  - first:
+      213: -5710169376141950155
+    second: HelicopterosInimigos 1_16
+  - first:
+      213: 4830917285202570766
+    second: HelicopterosInimigos 1_17
+  - first:
+      213: 448189243551205521
+    second: HelicopterosInimigos 1_18
+  - first:
+      213: -1292458975895632346
+    second: HelicopterosInimigos 1_19
+  - first:
+      213: -8441822683807880764
+    second: HelicopterosInimigos 1_20
+  - first:
+      213: -8031070791834309897
+    second: HelicopterosInimigos 1_21
+  - first:
+      213: 5383938843991309555
+    second: HelicopterosInimigos 1_22
+  - first:
+      213: -9095152277715376305
+    second: HelicopterosInimigos 1_23
+  - first:
+      213: 6432150473230203694
+    second: HelicopterosInimigos 1_24
+  - first:
+      213: -4054995291377859339
+    second: HelicopterosInimigos 1_25
+  - first:
+      213: 6876122541827624535
+    second: HelicopterosInimigos 1_26
+  - first:
+      213: 7432135700954377980
+    second: HelicopterosInimigos 1_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HelicopterosInimigos 1_13
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1074
+        width: 426
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 0, z: 2, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d68d53ad50139f3e0800000000000000
+      internalID: -2019529056693397395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelicopterosInimigos 1_14
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 1063
+        width: 453
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb01892db19205da0800000000000000
+      internalID: -5958217107537129281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelicopterosInimigos 1_19
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 315
+        width: 396
+        height: 264
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 3, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 626c9feb863401ee0800000000000000
+      internalID: -1292458975895632346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelicopterosInimigos 1_20
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 654
+        width: 464
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 3, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c9ebcaeefe98da80800000000000000
+      internalID: -8441822683807880764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelicopterosInimigos 1_0
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 689
+        width: 435
+        height: 283
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ebe9eb6e25192345aa49963b530bd1d
+      internalID: 382251529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelicopterosInimigos 1_1
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 260
+        width: 453
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ef194fdeb04b842a38ad36e810bc6c
+      internalID: 1548997896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0a96069443d000041b4c3864a286270c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      HelicopterosInimigos 1_0: 382251529
+      HelicopterosInimigos 1_1: 1548997896
+      HelicopterosInimigos 1_2: -2027052654
+      HelicopterosInimigos 1_7: -1159747154
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

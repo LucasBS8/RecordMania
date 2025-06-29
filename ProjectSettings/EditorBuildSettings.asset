@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 8c10086ef0c8cfa40ba1c805be6705de
+  - enabled: 1
+    path: Assets/Scenes/PlaneSelection.unity
+    guid: a14146c004e2d54448994db9624cbd16
+  - enabled: 1
+    path: Assets/Scenes/Gameplay.unity
+    guid: 47f44ec76dd78244b8fbe16352356311
+  - enabled: 1
+    path: Assets/Scenes/Shop.unity
+    guid: 64f7b412ff763cf48977048130a50eac
+  - enabled: 1
+    path: Assets/Scenes/Options.unity
+    guid: e2d95f498afd1a44a9be14e4ba4dccca
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 94b1e84f4776ca4458bb463380722323
+  - enabled: 1
+    path: Assets/Scenes/SaveLoad.unity
+    guid: c296be2beae557948909302fd076df73
+  m_configObjects:
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: ae1f6df31ca41504082e2a4eb1bd4147, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: b0b275925690bb54f89c397fcef93fda, type: 2}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  m_UseUCBPForAssetBundles: 0
