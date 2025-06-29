@@ -1,9 +1,10 @@
 using System.Collections;
 using UnityEngine;
 
-[RequireComponent(typeof(SpriteRenderer))]
 public sealed class PlayerController : MonoBehaviour
 {
+    public GameplayUI instance;
+
     [Header("Movement")]
     [SerializeField] float moveSpeed = 5f;
 
@@ -39,7 +40,9 @@ public sealed class PlayerController : MonoBehaviour
     }
     private void Start()
     {
-        GameplayUI.Instance.ControlLife(_health);
+        instance = FindFirstObjectByType<GameplayUI>(); 
+        GameManager.Instance.isGameOver = false;
+        instance.ControlLife(_health);
     }
     void Update()
     {
@@ -67,7 +70,7 @@ public sealed class PlayerController : MonoBehaviour
     {
         if (col.CompareTag("Coin"))
         {
-            GameplayUI.Instance.ControlCoin(1);
+            instance.ControlCoin(1);
             Destroy(col.gameObject);
             return;
         }
@@ -86,7 +89,7 @@ public sealed class PlayerController : MonoBehaviour
     void ApplyDamage(int amount)
     {
         _health -= amount;
-        GameplayUI.Instance.ControlLife(_health);
+        instance.ControlLife(_health);
         if (_health <= 0)
         {
             GameManager.Instance.isGameOver = true;

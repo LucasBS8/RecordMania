@@ -15,7 +15,7 @@ public class GameplayUI : MonoBehaviour
     private int playerCoins;
     private int playerLives;
 
-    void Awake()
+/*    void Awake()
     {
         if (Instance == null)
         {
@@ -27,7 +27,7 @@ public class GameplayUI : MonoBehaviour
             Destroy(gameObject);
         }
     }
-
+*/
     void Start()
     {
         LoadPlayerData();
@@ -48,7 +48,7 @@ public class GameplayUI : MonoBehaviour
 
     public void ControlCoin(int amount)
     {
-        playerCoins = amount;
+        playerCoins += amount;
         PlayerPrefs.SetInt("PlayerCoins", playerCoins);
         PlayerPrefs.Save();
         UpdateUI();
@@ -77,6 +77,14 @@ public class GameplayUI : MonoBehaviour
         gameOverPanel.SetActive(false);
         hud.SetActive(true);
         SceneManager.LoadScene("MainMenu");
+    }
+
+    public void RestartGame()
+    {
+        Time.timeScale = 1f;
+        gameOverPanel.SetActive(false);
+        hud.SetActive(true);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
 }
