@@ -24,7 +24,10 @@ public class BulletManager : MonoBehaviour
             }
         }
     }
-
+    private void Update()
+    {
+            Destroy(gameObject, 3f);
+    }
     private void OnDestroy()
     {
         var explosion = Instantiate(explosionPrefab, transform.position, Quaternion.identity);

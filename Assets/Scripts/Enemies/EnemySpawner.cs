@@ -7,7 +7,7 @@ public class EnemySpawner : MonoBehaviour
     public GameObject[] enemyPrefabs; // 5 tipos diferentes
 
     [Header("Spawn Settings")]
-    public float spawnRate = 2f;
+    public float spawnRate = 1f;
     public float spawnRateIncrease = 0.1f;
     public int maxEnemiesOnScreen = 8;
 
@@ -32,7 +32,7 @@ public class EnemySpawner : MonoBehaviour
     void Start()
     {
         mainCamera = Camera.main;
-        nextSpawnTime = Time.time + spawnRate;
+        nextSpawnTime = Time.deltaTime + spawnRate;
         nextMissileTime = Time.time + missileInterval;
         lastDifficultyIncrease = Time.time;
         if (enemyPrefabs.Length == 0)
@@ -55,7 +55,6 @@ public class EnemySpawner : MonoBehaviour
 
     private void SpawnEnemies()
     {
-        // Verificar se � hora de spawnar e se n�o excedeu o limite
         if (contador >= nextSpawnTime)
         {
             if (enemyPrefabs.Length > 0)
